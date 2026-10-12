@@ -23,7 +23,7 @@ export default async function NewReservationPage({
   ]);
 
   return (
-    <main className="mx-auto max-w-xl p-8">
+    <main className="mx-auto max-w-xl p-5 sm:p-8">
       <h1 className="mb-6 text-2xl font-bold">Book a resource</h1>
       <ReservationForm
         resources={resources}

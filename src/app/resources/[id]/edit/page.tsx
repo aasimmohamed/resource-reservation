@@ -18,7 +18,7 @@ export default async function EditResourcePage({
   if (!resource) notFound();
 
   return (
-    <main className="mx-auto max-w-xl p-8">
+    <main className="mx-auto max-w-xl p-5 sm:p-8">
       <h1 className="mb-6 text-2xl font-bold">Edit {resource.name}</h1>
       <ResourceForm
         action={updateResource.bind(null, resource.id)}
